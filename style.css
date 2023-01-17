@@ -1,0 +1,169 @@
+
+* { 
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+
+    font-size: 62.5%;
+}
+
+body{
+
+    background-color: rgb(215, 211, 211);
+    
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content:end;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #00a4c0;
+    height: 10vh;
+    padding: 15px;
+  
+    
+}
+
+
+
+.nombre{
+    
+    font-size: 4rem;
+    color: rgb(255, 255, 255);
+    padding-right: 5rem;
+}
+
+.foto img{
+    width: 10rem;
+    position: absolute;
+    left: 10rem;
+    top: 3rem
+}
+
+
+
+.contenedor{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80rem;
+   
+    border: 1px solid black;
+}
+
+aside{
+    width: 20vw;
+    background-color: #d8f1f5;
+}
+
+section {
+    position: absolute;
+    left: 30rem;
+    width: 32.5vw;
+    padding: 1rem;
+    background-color: #ffffff;
+}
+
+aside, section {
+    display: inline-block;
+    height: 70vh;
+  }
+
+.contacto{
+    position: relative;
+    left: 3rem;
+    top: 7.5rem;
+    /* border:1px solid black; */
+    width: 80%;
+    height: 10rem;
+}
+
+.contacto h1{
+    position: relative;
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.contacto-item{
+    position: relative;
+  list-style: none;
+  font-size: 2rem;
+  margin-top: 1rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  left: 1rem;
+
+}
+
+.hobbies{
+    position: relative;
+    left: 3rem;
+    top: 13rem;
+    /* border:1px solid black; */
+    width: 80%;
+    height: 10rem;
+}
+
+.hobbies h1{
+   
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.hobbies-item{
+    position: relative;
+      font-size: 2rem;
+      margin-top: 1rem;
+      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      left: 2rem;
+    }
+
+.redes{
+     position: relative;
+     left: 3rem;
+     top: 18rem;
+     width: 80%;
+   
+    }
+
+.redes h1{
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.redes-img  img{
+    left: 1rem;
+    margin-top: 1rem;
+    width: 5rem;
+    height: 4rem;
+}
+
+.titulo{
+    position: relative;
+    left: 1.25rem;
+    font-size: 3rem;
+    margin-top: 2rem;
+}
+
+video{
+    margin-top: 3.125rem;
+    position: relative;
+    width: 45rem;
+    left: 1.25rem;
+}
+
+.link{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    position: relative;
+    font-size: 3rem;
+    text-decoration: none;
+    left: 2rem;
+    top: 1rem;
+   
+}
